@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Drop-down Menu</title>
+  </head>
+  <body>
+    <form>
+      <label for="dropdown">
+      Choose an option:</label>
+      <select id="dropdown">
+        <option value="r">Red</option>
+        <option value="g">Green</option>
+        <option value="b">Blue</option>
+      </select>
+      <input type="submit">
+      <br>
+      <label for "who respect">
+        Choose a guy:</label>
+      <select id="dropdown">
+        <option value='i'>ichiro</option>
+        <option value='w'>warren</option>
+        <option value='L'>Luffy</option>
+      <input type="submit">
+    </form>
+  </body>
+</html>
