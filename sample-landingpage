@@ -1,0 +1,38 @@
+
+<html>
+    <head>Landing page</head>
+<body>
+<header style="background-color:orange;">
+<h1>Study Coding html Hard</h1>
+</header>
+<main>
+<h1> Lets do it</h1>
+<img src="https://blob.sololearn.com/courses/np.png">
+<p>this is our <b>Landing  Page</b> about start-up</p>
+<ul>
+    <li>박모세 1군</li>
+    <li>박모세 2군</li>
+    <li>박모세 3군</li>
+<h2>why not me</h2>
+<h2>Submit</h2>
+<form>
+    <label for "3">Choose your stack:</label>
+    <select id="3" name="stack">
+        <option value="python">python</option>
+        <option value="C">C</option>
+        <option value="Database">database</option>
+    </select>
+    <br>
+    <label for "1">name :</label>
+    <input type="text" id="1"><br>
+    <label for "2">email :</label>
+    <input type="text" id="2" value="000@example.com"><br>
+    <input type="submit" value="제출">
+</form>
+<button style="background-color:orange; border-radius:5px" onclick="alert('제출되었습니다')">submit</button>
+</main>
+<footer style="background-color:blue;">
+    <p>this is potter</p>
+</footer>
+</body>
+</html>
