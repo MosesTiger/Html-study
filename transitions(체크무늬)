@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Effect Example</title>
+    <style>
+        div {
+            width: 50px;
+            height: 50px;
+            background: #32CD32;
+            transition: width 1s, height 1s, transform 1s, background 1s;
+        }
+        div:hover {
+            width: 250px;
+            height: 600px;
+            transform: translate(200px, 200px);
+            background: linear-gradient(45deg, #32CD32 25%, transparent 25%, transparent 50%, #32CD32 50%, #32CD32 75%, transparent 75%, transparent);
+            background-size: 40px 40px;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
